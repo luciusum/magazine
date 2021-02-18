@@ -1,0 +1,42 @@
+
+.contacts {
+    background: $container-color;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    &__wrapper {
+        .contacts__accordion {
+            list-style-type: none;
+            &__item {
+                display: flex;
+                border-bottom: 1px solid #000;
+                // &--active {
+                //     .luc {
+                //         stroke: #495274;
+                //     }
+                // }
+                &-trigger {
+                    display: flex;
+                    cursor: pointer;
+                    padding: 16px;
+                    &-icon{
+                        margin-right: 16px;
+                        .luc {
+                            stroke: #8e96b7;
+                        }
+                    }
+                }
+                &-content {
+                    display: flex;
+                    padding: 0 16px 16px;
+                    &-text {
+                        flex-grow: 1;
+                    }
+                    &-btn {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
