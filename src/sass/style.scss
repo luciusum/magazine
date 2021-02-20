@@ -12,9 +12,9 @@
 }
 @import "variables/_variables.sass";
 @import "mixins/_mixins.sass";
+@import "title/title";
 @import "media/_media.sass";
 
-@import "title/title";
 @import "header/_header.sass";
 @import "subheader/_subheader";
 @import "promo/_promo.sass";
