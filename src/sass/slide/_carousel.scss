@@ -2,16 +2,18 @@
     padding: 81px 0;
     &__inner {
         position: relative;
-        margin: 0 auto;
+        min-width: 1500px;
+        right: 20%;
+        margin-left: 23.5px;
     }
     img {
-        border: transparent;
+        width: 100%;
     }
     .slick-prev, .slick-next  {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        left: 3px;
+        left: 10px;
         border: none;
         background-color: transparent;
         outline: none !important;
@@ -22,12 +24,12 @@
         }
     }
     .slick-next  {
-        right: 3px;
+        right: 10px;
         left: auto;
     }
     .slick-dots {
         display: flex;
-        margin-left: 31%;
+        margin-left: 37%;
         justify-content: space-around;
         left: 50%;
         align-items: center;
